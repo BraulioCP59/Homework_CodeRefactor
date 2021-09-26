@@ -5,10 +5,12 @@
     margin: 0;
 }
 
+/* type selector for styling the site body */
 body {
     background-color: #d9dcd6;
 }
 
+/* type selector for styling the site header section */
 header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -16,15 +18,18 @@ header {
     color: #ffffff;
 }
 
+/* type selector for styling the site id header */
 h1 {
     display: inline-block;
     font-size: 48px;
 }
 
+/* type selector for styling the side id text */
 h1 span {
     color: #d9dcd6;
 }
 
+/* type selector for styling the nav bar */
 nav {
     padding-top: 15px;
     margin-right: 20px;
@@ -33,20 +38,31 @@ nav {
     font-size: 20px;
 }
 
+/* type selector for styling unordered list */
 nav ul {
     list-style-type: none;
 }
 
+/* type selector for styling nav link position */
 nav ul li {
     display: inline-block;
     margin-left: 25px;
 }
 
+/* type selector for styling navigation links */
 nav ul li a {
     color: #ffffff;
     text-decoration: none;
 }
 
+/* type selector for styling the services article */
+article {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/* class selector for styling main banner background image */
 .hero img {
     height: 100%;
     width: 100%;
@@ -56,22 +72,19 @@ nav ul li a {
     background-position: center;
 }
 
+/* class selector for left-sided image positioning */
 .float-left {
     float: left;
     margin-right: 25px;
 }
 
+/* class selector for right-sided image positioning */
 .float-right {
     float: right;
     margin-left: 25px;
 }
 
-.content {
-    width: 75%;
-    display: inline-block;
-    margin-left: 20px;
-}
-
+/* class selector for styling the benefits list (aside) */
 .benefits {
     margin-right: 20px;
     padding: 20px;
@@ -83,22 +96,26 @@ nav ul li a {
     background-color: #2589bd;
 }
 
+/* class selector for styling benefit section body content */
 .benefit-body {
     margin-bottom: 32px;
     color: #ffffff;
 }
 
+/* class selector for styling benefit section title headers */
 .benefit-title {
     margin-bottom: 10px;
     text-align: center;
 }
 
+/* class selector for styling benefit section images */
 .benefit-image {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
+/* class selector for styling service section body content */
 .service-body {
     margin-bottom: 20px;
     padding: 50px;
@@ -108,15 +125,18 @@ nav ul li a {
     color: #ffffff;
 }
 
+/* class selector for styling service section images. */
 .service-image {
     max-height: 200px;
 }
 
+/* class selector for styling service section title headers */
 .service-title {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
+/* type selector for footer font and element styling */
 footer {
     padding: 30px;
     clear: both;
@@ -124,6 +144,7 @@ footer {
     text-align: center;
 }
 
+/* type selector all h2 inside the footer element text sizing */
 footer h2 {
     font-size: 20px;
 }
